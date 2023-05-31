@@ -239,4 +239,16 @@ nav {
   height: 700px;
   margin-top: 150px;
   background-position: center;
+  text-align: center;
+}
+
+.footerItems {
+  padding-top: 70px;
+  margin: auto;
+}
+
+.footerItems > h3 {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
 }
