@@ -1,0 +1,74 @@
+.logo {
+    width: 150px;
+    margin-right: 200px;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .navItems ul {
+    gap: 40px;
+    margin-left: 0;
+    word-spacing: 3px;
+    font-weight: 400;
+    font-size: 12px;
+    color: #000000;    
+}
+
+.about {
+    margin-top: 0;
+}
+
+.aboutImg > img {
+    width: 350px;
+}
+
+.aboutImg h1 {
+    font-size: 35px;
+}
+
+.full-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+span {
+    color: #ff3d3d;
+}
+
+label {
+    font-family: "Libre Baskerville";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #212529;
+}
+
+input, select {
+    border: 1px solid #CED4DA;
+    width: 270px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.full-container  p {
+    color:#ff3d3d;
+    line-height: 27px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.signUp {
+  background-color: #478340;
+  text-decoration: none;
+  color: black;
+  padding: 15px 50px;
+  font: 16px "Libre Baskerville";
+  border-radius: 5px;
+}
+
+.signUp:hover {
+    background-color: #224229;
+    color: white;
+}
+

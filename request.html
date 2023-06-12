@@ -11,6 +11,7 @@
     />
     <title>Greenie web</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="request.css">
     <!-- fonts poppins  -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -25,6 +26,7 @@
       href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap"
       rel="stylesheet"
     />
+    
 </head>
 <body>
     <nav>
@@ -33,13 +35,95 @@
         </div>
         <div class="navItems">
           <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#why">Why Us</a></li>
-            <li><a href="#compression">How it Works</a></li>
+            <li><a href="/index.html#about">ABOUT US</a></li>
+            <li><a href="/index.html#why">IMPORTANCE OF GREENIFYING</a></li>
+            <li><a href="/index.html#compression">HOW DOES IT WORK</a></li>
             <li><a href="request.html" class="requestDemo">Request Demo</a></li>
           </ul>
         </div>
       </nav>
-  
+      <main>
+        <!-- copied the body from index.html and modified it, so a lot of class and id may remain same -->
+      <section class="about container" id="about">
+        <div class="aboutImg">
+          <h1>Request a Demo</h1>
+          <img src="/images/image3.png" alt="" />
+        </div>
+        <div class="full-container">
+          <div class="grid-item-1">
+            <div >
+              <label for="name">First Name <span>*</span></label>
+              <div>
+                <input type="text" placeholder="Your first name" required/>
+              </div>
+            </div>
+            <div>
+              <label for="email">Work Email <span>*</span></label>
+              <div>
+                <input type="email" placeholder="example@email.com" required />
+              </div>
+            </div>
+            <div>
+              <label for="country">Country</label>
+              <div>
+                <input type="text" placeholder="Your country" />
+              </div>
+            </div>
+            <div>
+              <label for="department">Department</label>
+              <div>
+                <select name="department" id="department">
+                  <option value="">Please select one</option>
+                  <option value="1">Dev/Engineering/IT</option>
+                  <option value="2">Sales</option>
+                  <option value="3">Support & Success</option>
+                  <option value="4">Marketing</option>
+                  <option value="5">Finance/Legal/Ops</option>
+                  <option value="6">HR/People</option>
+                  <option value="7">Strategy/Biz Dev</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="grid-item-2">
+            <div>
+              <label for="name">Last Name</label>
+              <div>
+                <input type="text" placeholder="Your last name" />
+              </div>
+            </div>
+            <div>
+              <label for="number">Phone Number</label>
+              <div>
+                <input type="text" placeholder="(+234) 8088 8888 88" />
+              </div>
+            </div>
+            <div>
+              <label for="country">Company <span>*</span></label>
+              <div>
+                <input type="text" placeholder="Your Company Name" />
+              </div>
+            </div>
+            <div>
+              <label for="role">Role</label>
+              <div>
+                <select name="role" id="role">
+                  <option value="">Please select one</option>
+                  <option value="1">CXO</option>
+                  <option value="2">VP</option>
+                  <option value="3">Director</option>
+                  <option value="4">Manager</option>
+                  <option value="5">Contributor</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div grid-item-3>
+            <p>Fields marked with an asterisk (*) are required.</p>
+            <a href="" class="signUp">Sign Up</a>
+          </div>
+        </div>
+      </section>
+    </main>
 </body>
 </html>
