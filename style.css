@@ -1,5 +1,6 @@
-*, ::before, ::after {
+* {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -11,22 +12,22 @@ body {
 nav {
   display: flex;
   justify-content: center;
-  padding: 0px;
+  padding: 0;
   border-bottom: 1px solid #888888;
   background-color: white;
-  position: sticky;
+  position: fixed;
   top: 0;
-  margin-bottom: 5px;
+  width: 100%;
+  gap: 500px;
 }
 
 .logo {
   width: 150px;
-  margin-right: 400px;
 }
 
 .navItems ul {
   display: flex;
-  gap: 20px;
+  gap: 30px;
   margin-top: 30px;
   align-content: space-between;
 }
@@ -57,6 +58,10 @@ nav {
 }
 
 /* Section Intro  */
+section {
+  padding-top: 100px;
+}
+
 .introImage img {
   width: 500px;
   margin-left: 15px;
